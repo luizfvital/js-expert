@@ -17,3 +17,6 @@ console.log('"1" === 1: ', '1' === 1)
 
 console.log('String(123): ', String(123))
 console.log('123 + "": ', 123 + '')
+
+console.assert(('hello' || 123) === 'hello', '|| will return the first element') 
+console.assert(('hello' && 123) === 123, '&& will return the last element') 
